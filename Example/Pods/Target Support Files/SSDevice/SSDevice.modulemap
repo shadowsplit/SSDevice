@@ -1,0 +1,6 @@
+framework module SSDevice {
+  umbrella header "SSDevice-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SSDevice_Tests {
+  umbrella header "Pods-SSDevice_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

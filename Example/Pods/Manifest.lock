@@ -1,0 +1,19 @@
+PODS:
+  - SAMKeychain (1.5.3)
+  - SSDevice (0.1.0):
+    - SAMKeychain
+
+DEPENDENCIES:
+  - SSDevice (from `../`)
+
+EXTERNAL SOURCES:
+  SSDevice:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SSDevice: 7fc906ca490d3c261662998ed15b31593b6a47da
+
+PODFILE CHECKSUM: cb1ec70a726b251c13ae8e5e49e177c4caed849b
+
+COCOAPODS: 1.4.0

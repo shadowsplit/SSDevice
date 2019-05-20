@@ -7,12 +7,15 @@
 //
 
 #import "SSAppDelegate.h"
+#import <SSDevice.h>
 
 @implementation SSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[SSDevice currentDevice] isJailbreak];
+    [[SSDevice currentDevice] uuid];
     return YES;
 }
 
