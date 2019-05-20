@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod 'SSDevice'
 ```
 
+## Project
+
+the project at [project](https://github.com/orgs/shadowsplit/projects/1)
+
 ## Author
 
 JohnTsaii, caijingzhuang@gmail.com
